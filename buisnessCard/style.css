@@ -1,0 +1,49 @@
+.body {
+    margin: 20px;
+}
+
+
+.card {
+    padding : 20px 5px 20px 5px;
+
+    background-color: rgb(37, 32, 32);
+    color: rgb(238, 241, 4);
+    width: 400px;
+
+    margin : 0 auto;
+    /* padding/margin : top right bottom left
+    or
+    padding/margin : top-bottom righ-left */
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.prof-img:hover {
+    width: 200px;
+}
+
+
+.prof-img {
+    width: 150px;
+}
+
+
+.text-div {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.border {
+    border: rgb(238, 241, 4) 4px inset;
+    border-bottom: rgb(251, 255, 0) inset 4px;
+    border-radius: 10px;
+}
+
+
+.border-img {
+    border: rgb(238, 241, 4) solid 2px;
+    border-radius: 80px;
+}
